@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./tetris.css" />
+    <script src="./tetris.js" defer></script>
     <title>Tetris</title>
   </head>
   <body>
     <h1>Tetris</h1>
-    <script src="./tetris.js"></script>
+    <div class="container">
+      <h3>Score: <span id="score">0</span></h3>
+      <div class="grid"></div>
+      <button type="button" id="startAndPauseBtn">Start/Pause</button>
+    </div>
   </body>
 </html>
